@@ -1,0 +1,69 @@
+.cadastro-body {
+  background-color: rgb(27, 163, 27);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+.cabecalhoConsulta {
+  color: white;
+  text-align: left;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.titulo-nutrividas {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  margin: 0 auto; /* Centraliza o elemento em relação ao container */
+  width: 100%;
+}
+
+
+.logo {
+  max-width: 80px; 
+  height: auto;
+}
+
+.formulario {
+  background-color: white;
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.img-nutricionista {
+  width: 100%; 
+  height: auto;
+  border-radius: 10px; 
+  border: 2px solid green;
+}
+
+.descricao {
+  color: green;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px; /* Aumenta o espaçamento inferior */
+}
+
+.container-form {
+  max-width: 600px;
+  width: 100%; /* Garante que ocupe todo o espaço */
+  margin: -50px auto 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.formulario form {
+  text-align: center;
+}

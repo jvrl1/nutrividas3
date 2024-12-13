@@ -1,0 +1,104 @@
+/* Container do Histórico */
+.historico-container {
+    background: linear-gradient(135deg, #43cea2, #185a9d); /* Gradiente azul-esverdeado */
+    padding: 40px;
+    color: white;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .historico-container:hover {
+    transform: scale(1.03); /* Efeito de leve crescimento */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Cabeçalho do Histórico */
+  .historico-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .historico-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #f79d00, #64f38c); /* Gradiente de texto */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    animation: glow 2s infinite ease-in-out;
+  }
+  
+  /* Lista de Consultas */
+  .consultas-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajustável */
+    gap: 25px;
+  }
+  
+  /* Cartão de Consulta */
+  .consulta-card {
+    background-color: #ffffff;
+    color: #333;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .consulta-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .consulta-card h3 {
+    color: #185a9d;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .consulta-card p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .consulta-card p strong {
+    color: #43cea2;
+  }
+  
+  /* Ícone decorativo no fundo */
+  .consulta-card::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(45deg, #64f38c, #f79d00);
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .historico-header h1 {
+      font-size: 3em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .historico-header h1 {
+      font-size: 2.5em;
+    }
+  }
+  

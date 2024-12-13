@@ -1,0 +1,120 @@
+.cadastro-body {
+  background: linear-gradient(180deg, rgba(27, 163, 27, 1) 0%, rgba(0, 102, 0, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cabecalhoConsulta {
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+.text-success {
+  font-size: 2rem; /* Ajuste o tamanho do texto */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Adiciona um sombreamento leve */
+}
+
+.text-muted {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.fa-user-plus {
+  font-size: 1.5rem; /* Aumenta o ícone para combinar com o título */
+}
+
+
+.titulo-nutrividas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  max-width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.formulario {
+  background-color: white;
+  border: 2px solid #228B22;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 30px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.img-nutricionista {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  border: 2px solid #228B22;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  color: #228B22;
+  font-size: 1.1rem;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid #228B22;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container-form {
+  max-width: 600px;
+  width: 100%;
+  margin: -50px auto 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #32CD32;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #228B22;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.formulario form {
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

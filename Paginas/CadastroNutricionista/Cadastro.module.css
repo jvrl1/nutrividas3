@@ -1,0 +1,90 @@
+body {
+  background-image: url('testezada.webp');
+  background-size: 170%;
+    background-position: center 
+}
+
+.cadastro-container {
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  max-width: 100%; 
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.titulo-verde {
+  color: green; /* Define a cor verde para o texto */
+}
+.text-styled-green {
+  color: #28a745; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  font-family: 'Arial', sans-serif; 
+}
+h3 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+/* Ajuste o tamanho e a cor do ícone */
+.eye-icon {
+  font-size: 1rem; /* Tamanho menor */
+  color: green; /* Cor verde */
+  cursor: pointer;
+}
+
+.input-group-icon {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background: none;
+  border: none;
+}
+
+
+.btn-no-outline:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.input-group input:focus {
+  outline: none; 
+  box-shadow: none; 
+}
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 18px;
+}
+.logo img {
+  width: 50px; 
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 16px; 
+  }
+}
+

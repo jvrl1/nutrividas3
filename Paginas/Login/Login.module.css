@@ -1,0 +1,78 @@
+body {
+    background-image: url('testezada.webp');
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  
+  .cadastro-container {
+    position: absolute; /* Permite posicionar o elemento em relação ao seu contêiner pai */
+    top: 50%; /* Posiciona o topo do contêiner no meio da tela */
+    left: 50%; /* Posiciona a esquerda do contêiner no meio da tela */
+    transform: translate(-50%, -50%); /* Move o contêiner para cima e para a esquerda pela metade de suas dimensões */
+    max-width: 100%; /* Alterado para 100% para caber em telas pequenas */
+    width: 400px; /* Mantém um tamanho fixo para telas maiores */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo um pouco transparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .text-styled-green {
+    color: #28a745; /* Verde do Bootstrap (text-success) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave para dar profundidade */
+    font-family: 'Arial', sans-serif; /* Uma fonte clara e profissional */
+  
+  }
+  
+  h3 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Sombra leve para destaque */
+  }
+  
+  
+  .btn-no-outline:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .input-group input:focus {
+    outline: none; 
+    box-shadow: none; 
+  }
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    font-size: 18px;
+  }
+  .logo img {
+    width: 50px; 
+    height: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 16px; 
+    }
+  }
+  
+  
+  
